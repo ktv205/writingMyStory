@@ -112,7 +112,7 @@ public class MainActivity extends ActionBarActivity {
 	protected void onPause() {	
 		super.onPause();
 		String savingStory="";
-		Log.i("some shit", "in on text changed");
+		Log.i("testing", "in on text changed");
 		if(flag==1){
 			try {
 				fos = openFileOutput(MYSTORY, Context.MODE_PRIVATE);
